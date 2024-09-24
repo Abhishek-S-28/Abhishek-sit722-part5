@@ -27,9 +27,8 @@ jobs:
 
     - name: Register missing Azure Providers
       run: |
-          az provider register --namespace Microsoft.TimeSeriesInsights
-          az provider register --namespace Microsoft.ContainerService
           az provider register --namespace Microsoft.ContainerRegistry
+          az provider register --namespace Microsoft.Kubernetes
       shell: bash
 
 
