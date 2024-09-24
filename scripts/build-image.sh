@@ -1,1 +1,2 @@
-# Your Solution
+#!/bin/bash
+docker-compose build
