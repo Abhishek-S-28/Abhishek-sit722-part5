@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: inventory-management
-        image: docker tag inventory-management 
+        image: bookinventory.azurecr.io/inventory-management
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
